@@ -32,6 +32,7 @@ steps:
       ecosystem.config.js
       sshd_config
       init.sh
+      web.config
     TargetFolder: '$(Build.StagingDirectory)/'
 
 - task: PublishBuildArtifacts@1
