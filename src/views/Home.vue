@@ -6,7 +6,7 @@
         <div class="col-lg-12 text-center">
           <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
             <!-- <strong>Bear alert!</strong> Lots of droppings on the catwalks near Rampart -->
-            Just about time to procrastinate putting the snow tires on...
+            Can I make it home?
             <a
               href="https://www.wsdot.com/traffic/passes/snoqualmie/"
               target="_blank"
