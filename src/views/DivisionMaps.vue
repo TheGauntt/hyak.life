@@ -1,23 +1,83 @@
 <template>
   <!-- Page Content -->
   <div class="container">
-    <!-- Introduction Row -->
-    <!-- <h1 class="my-4">About Us
-		<small>It's Nice to Meet You!</small>
-    </h1>-->
-
-    <!-- Team Members Row -->
     <div class="row">
-      <div class="col-lg-12">
-        <h2 class="my-4">HPOA Board</h2>
-      </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
-        <h3>Betsy Bankson</h3>
-        <p>HPOA President</p>
-      </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
-        <h3>Sally Bankson</h3>
-        <p>Makes delicious food</p>
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Miscellaneous</h1>
+
+        <ul class="list-group mt-5 mb-5">
+          <li class="list-group-item">
+            <a
+              href="hyak_files/misc/HPOA-Building_Application-2008.pdf"
+              target="_blank"
+            >Building Application</a>
+          </li>
+          <li class="list-group-item">
+            <a href="hyak_files/misc/HPOA_Covenants_1997.pdf" target="_blank">Covenants</a>
+          </li>
+          <li class="list-group-item">
+            <a href="hyak_files/misc/Bylaws2006.pdf" target="_blank">Bylaws</a>
+          </li>
+        </ul>
+
+        <h1 class="mt-5">Division Maps</h1>
+
+        <ul class="list-group mt-5 mb-5">
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision1-North.pdf"
+              target="_blank"
+            >HyakEstatesDivision1-North.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision1-South.pdf"
+              target="_blank"
+            >HyakEstatesDivision1-South.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision2-North.pdf"
+              target="_blank"
+            >HyakEstatesDivision2-North.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision2-South.pdf"
+              target="_blank"
+            >HyakEstatesDivision2-South.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision3-North.pdf"
+              target="_blank"
+            >HyakEstatesDivision3-North.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision3-South.pdf"
+              target="_blank"
+            >HyakEstatesDivision3-South.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision4-North.pdf"
+              target="_blank"
+            >HyakEstatesDivision4-North.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesDivision4-South.pdf"
+              target="_blank"
+            >HyakEstatesDivision4-South.pdf</a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="hyak_files/division_maps/HyakEstatesOverview.pdf"
+              target="_blank"
+            >HyakEstatesOverview.pdf</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

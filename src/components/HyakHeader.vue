@@ -24,9 +24,9 @@
             </li>
           </router-link>
 
-          <router-link to="/about">
+          <router-link to="/board">
             <li class="nav-item">
-              <span class="nav-link">About</span>
+              <span class="nav-link">Board</span>
             </li>
           </router-link>
 

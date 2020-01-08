@@ -1,23 +1,55 @@
 <template>
   <!-- Page Content -->
-  <div class="container">
-    <!-- Introduction Row -->
-    <!-- <h1 class="my-4">About Us
-		<small>It's Nice to Meet You!</small>
-    </h1>-->
+  <div class="container mt-5 mb-5">
+    <h1 class="mb-3">Links</h1>
 
-    <!-- Team Members Row -->
     <div class="row">
-      <div class="col-lg-12">
-        <h2 class="my-4">HPOA Board</h2>
+      <div class="col-lg-6">
+        <p class="lead">Property Owner's Information</p>
+        <ul class="list-unstyled">
+          <li>
+            <a target="_blank" href="http://www.network54.com/Forum/487138">HPOA Forum</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.network54.com/Forum/43339">Hyak Ski/Snowboard Forum</a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="http://www.snoqualmiepassfirerescue.org/"
+            >Snoqualmie Pass Fire &amp; Rescue</a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="http://media.wsdot.wa.gov/asxgen/audio/har/Snoq_Summit/summit.wma"
+            >WSDOT - Highway Advisory Radio</a>
+          </li>
+        </ul>
       </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
-        <h3>Betsy Bankson</h3>
-        <p>HPOA President</p>
-      </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
-        <h3>Sally Bankson</h3>
-        <p>Makes delicious food</p>
+
+      <div class="col-lg-6">
+        <p class="lead">Other Things</p>
+        <ul class="list-unstyled">
+          <li>
+            <a
+              target="_blank"
+              href="http://www.snopass.org/"
+            >Snoqualmie Pass Utility District (SPUD)</a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="http://www.summit-at-snoqualmie.com/"
+            >Summit at Snoqualmie Ski Resort</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://hyak.net/">Hyak Ski and Snowboard Adventure</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.parks.wa.gov/">Washington State Parks</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

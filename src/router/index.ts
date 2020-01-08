@@ -11,16 +11,38 @@ const routes = [
     component: Home
   },
   {
-    path: "/about",
-    name: "about",
+    path: "/board",
+    name: "board",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+      import(/* webpackChunkName: "board" */ "../views/Board.vue")
   },
   {
     path: "/meeting_notes",
     name: "meeting notes",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/MeetingNotes.vue")
+      import(
+        /* webpackChunkName: "meeting_notes" */ "../views/MeetingNotes.vue"
+      )
+  },
+  {
+    path: "/links",
+    name: "links",
+    component: () =>
+      import(/* webpackChunkName: "links" */ "../views/Links.vue")
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: () =>
+      import(/* webpackChunkName: "contact" */ "../views/Contact.vue")
+  },
+  {
+    path: "/division_maps",
+    name: "division maps",
+    component: () =>
+      import(
+        /* webpackChunkName: "division_maps" */ "../views/DivisionMaps.vue"
+      )
   }
 ];
 
