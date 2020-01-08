@@ -38,7 +38,7 @@
               >Hyak FB Group</a>
             </p>
 
-            <div style="margin-left: auto; margin-right: auto; max-width: 540px;" class="mt-5">
+            <div style="margin-left: auto; margin-right: auto; max-width: 540px; min-height: 400px;" class="mt-5">
               <instagram-embed :max-width="540" url="https://www.instagram.com/p/BRmWveND_QI" />
             </div>
 

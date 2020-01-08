@@ -1,15 +1,16 @@
 body {
-	padding-top: 54px;
+  padding-top: 54px;
+  color: red;
 }
 
 @media (min-width: 992px) {
-	body {
-		padding-top: 56px;
-	}
+  body {
+    padding-top: 56px;
+  }
 }
 
 @media (max-width: 420px) {
-	.navbar-brand {
-		font-size: 1rem;
-	}
+  .navbar-brand {
+    font-size: 1rem;
+  }
 }

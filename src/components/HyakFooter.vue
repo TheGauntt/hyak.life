@@ -4,7 +4,9 @@
     <div class="container">
       <p class="m-0 text-center text-white">
         Copyright &copy; Hyak Property Owners Association (HPOA)
-        <span class="current_year">2020</span>
+        <span
+          class="current_year"
+        >{{current_year}}</span>
       </p>
     </div>
     <!-- /.container -->
@@ -14,7 +16,12 @@
 <script lang="ts">
 export default {
   name: "hyak-footer",
-  components: {}
+  components: {},
+  data: () => {
+    return {
+      current_year: new Date().getFullYear()
+    };
+  }
 };
 </script>
 

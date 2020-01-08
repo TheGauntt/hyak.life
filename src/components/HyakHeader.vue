@@ -18,46 +18,80 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto" id="top_links">
-          <li class="nav-item active">
-            <span class="nav-link">
-              <router-link to="/">Home</router-link>
-            </span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link">
-              <router-link to="/about">About</router-link>
-            </span>
-          </li>
-          <li class="nav-item">
-            <router-link to="/about">Meeting Notes</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/about">Links</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/about">Contact</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/about">Division Maps</router-link>
-          </li>
-          <!-- <li class="nav-item">
-						<span class="nav-link">History, Bylaws, CC&amp;Rs </span>
-          </li>-->
+          <router-link to="/">
+            <li class="nav-item">
+              <span class="nav-link">Home</span>
+            </li>
+          </router-link>
+
+          <router-link to="/about">
+            <li class="nav-item">
+              <span class="nav-link">About</span>
+            </li>
+          </router-link>
+
+          <router-link to="/meeting_notes">
+            <li class="nav-item">
+              <span class="nav-link">Meeting Notes</span>
+            </li>
+          </router-link>
+
+          <router-link to="/links">
+            <li class="nav-item">
+              <span class="nav-link">Links</span>
+            </li>
+          </router-link>
+
+          <router-link to="/contact">
+            <li class="nav-item">
+              <span class="nav-link">Contact</span>
+            </li>
+          </router-link>
+
+          <router-link to="/division_maps">
+            <li class="nav-item">
+              <span class="nav-link">Division Maps</span>
+            </li>
+          </router-link>
         </ul>
       </div>
     </div>
   </nav>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: "hyak-header",
-  components: {}
+  components: {},
+  methods: {}
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 li {
   cursor: pointer;
 }
+
+// a {
+//   color: rgba(255, 255, 255, 0.5);
+// }
+
+a:hover {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+// .navbar-dark .navbar-nav .nav-link {
+//   color: rgba(255, 255, 255, 0.5);
+// }
+
+.router-link-exact-active {
+  .nav-link {
+    color: white !important;
+  }
+}
+
+/* .nav-link {
+  color: inherit;
+} */
 </style>
