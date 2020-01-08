@@ -33,6 +33,7 @@ steps:
       sshd_config
       init.sh
       web.config
+      sitemap.xml
     TargetFolder: '$(Build.StagingDirectory)/'
 
 - task: PublishBuildArtifacts@1
