@@ -1,0 +1,15 @@
+body {
+	padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-top: 56px;
+	}
+}
+
+@media (max-width: 420px) {
+	.navbar-brand {
+		font-size: 1rem;
+	}
+}

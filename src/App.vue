@@ -1,16 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <HyakHeader />
+    <router-view />
+    <HyakFooter />
   </div>
 </template>
 
+<script lang="ts">
+import HyakHeader from "@/components/HyakHeader.vue";
+import HyakFooter from "@/components/HyakFooter.vue";
+
+export default {
+  name: "home",
+  components: {
+    HyakHeader,
+    HyakFooter
+  }
+};
+</script>
+
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
