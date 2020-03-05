@@ -14,7 +14,7 @@
         <div>
           <p>Michael James</p>
           <p>Patti Holman</p>
-          <p>Scott Burbridge</p>
+          <p>Scott Burbidge</p>
           <p>Jim Sammet</p>
           <p>Ernst Schubert</p>
           <p>Sally Bankson</p>
