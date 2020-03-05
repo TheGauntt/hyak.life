@@ -47,7 +47,7 @@
               style="margin-left: auto; margin-right: auto; max-width: 540px; min-height: 400px;"
               class="mt-5"
             >
-              <instagram-embed :max-width="540" url="https://www.instagram.com/p/BRmWveND_QI" />
+              <instagram-embed :max-width="540" url="https://www.instagram.com/p/B9SgwDwADPD" />
             </div>
 
             <h4 class="card-title mt-5">Board Meetings</h4>
