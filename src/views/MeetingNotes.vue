@@ -6,6 +6,14 @@
 			<h1 class="mt-5">Meeting Notes</h1>
 
 			<ul class="list-group mt-5 mb-5">
+
+				<li class="list-group-item">
+					<p class="year-header">2020</p>
+
+					<ul>
+						<li class="list-group-item" year="2020"><a href="hyak_files/meeting_notes/2020/HPOA Minutes 01-07-2020.doc" target="_blank">HPOA Minutes 01-07-2020.doc</a></li>
+					</ul>	
+				</li>
 				
 				<li class="list-group-item">
 					<p class="year-header">2010</p>

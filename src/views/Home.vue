@@ -6,12 +6,17 @@
         <div class="col-lg-12 text-center">
           <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
             <!-- <strong>Bear alert!</strong> Lots of droppings on the catwalks near Rampart -->
-            Can I make it home?
-            <a
+            <router-link to="/meeting_notes">
+              <span>Meeting Notes</span>
+            </router-link>
+			have gone through a portal in time (2010 to 2020). Check out the latest from
+			<a href="hyak_files/meeting_notes/2020/HPOA Minutes 01-07-2020.doc" target="_blank">Jan 7th</a>
+
+            <!-- <a
               href="https://www.wsdot.com/traffic/passes/snoqualmie/"
               target="_blank"
               style="color: green; text-decoration: underline;"
-            >Road &amp; Weather Conditions</a>
+            >Road &amp; Weather Conditions</a>-->
 
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
