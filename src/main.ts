@@ -1,4 +1,5 @@
 import Vue from "vue";
+import Toasted from "vue-toasted";
 import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
@@ -12,6 +13,8 @@ Vue.filter("capitalize", function(value: string) {
   value = value.toString();
   return value.charAt(0).toUpperCase() + value.slice(1);
 });
+
+Vue.use(Toasted);
 
 new Vue({
   router,
