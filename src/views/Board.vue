@@ -19,7 +19,7 @@
             </div>
           </div>
 
-          <HyakBoard />
+          <HyakMeetings />
         </div>
       </div>
     </div>
@@ -28,18 +28,16 @@
 
 <script lang="ts">
 // @ is an alias to /src
-import HyakBoard from "@/components/HyakBoard.vue";
+import HyakMeetings from "@/components/HyakMeetings.vue";
 
 export default {
   name: "board",
   components: {
-    HyakBoard
+    HyakMeetings
   }
 };
 </script>
 
 <style scoped>
-.groupo {
-  margin: 5px;
-}
+
 </style>

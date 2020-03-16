@@ -5,18 +5,24 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
-            <!-- <strong>Bear alert!</strong> Lots of droppings on the catwalks near Rampart -->
+            <!-- <p>
+              <strong>Heads up!</strong>
+            </p> -->
 
-            Looking for something new? Try reading our recently recovered
+            <p>
+              This month's meeting (April) has been canceled due to the concerns of COVID-19.
+            </p>
+
+            <p>
+              To avoid delays in construction, during the narrow summer building season, house plans may be sent electronically to the board, for review and approval.
+            </p>
+
+            <p>- Sally, 3/16/2020</p>
+
+            <!-- Looking for something new? Try reading our recently recovered
             <router-link to="/meeting_notes">
               <span>Meeting Notes</span>
-            </router-link>
-            <!-- <a
-              href="https://www.wsdot.com/traffic/passes/snoqualmie/"
-              target="_blank"
-              style="color: green; text-decoration: underline;"
-            >Road &amp; Weather Conditions</a>-->
-
+            </router-link>-->
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -53,7 +59,7 @@
               />
             </div>
 
-            <HyakBoard />
+            <HyakMeetings />
           </div>
         </div>
       </div>
@@ -64,13 +70,13 @@
 <script>
 import InstagramEmbed from "vue-instagram-embed";
 // @ is an alias to /src
-import HyakBoard from "@/components/HyakBoard.vue";
+import HyakMeetings from "@/components/HyakMeetings.vue";
 
 export default {
   name: "home",
   components: {
     InstagramEmbed,
-    HyakBoard
+    HyakMeetings
   }
 };
 </script>
