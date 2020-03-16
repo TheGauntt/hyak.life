@@ -1,26 +1,45 @@
 <template>
   <!-- Page Content -->
   <div class="container">
-    <!-- Introduction Row -->
-    <!-- <h1 class="my-4">About Us
-		<small>It's Nice to Meet You!</small>
-    </h1>-->
-
     <!-- Team Members Row -->
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="my-4">HPOA Is...</h2>
+        <div class="jumbotron pb-3 pt-1">
+          <h2 class="my-4">HPOA Board</h2>
 
-        <div>
-          <p>Michael James</p>
-          <p>Patti Holman</p>
-          <p>Scott Burbidge</p>
-          <p>Jim Sammet</p>
-          <p>Ernst Schubert</p>
-          <p>Sally Bankson</p>
-          <p>Betsy Bankson</p>
+          <div class="py-2 bg-white">
+            <div class="mt-2">
+              <p>Michael James</p>
+              <p>Patti Holman</p>
+              <p>Scott Burbidge</p>
+              <p>Jim Sammet</p>
+              <p>Ernst Schubert</p>
+              <p>Sally Bankson</p>
+              <p>Betsy Bankson</p>
+            </div>
+          </div>
+
+          <HyakBoard />
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+// @ is an alias to /src
+import HyakBoard from "@/components/HyakBoard.vue";
+
+export default {
+  name: "board",
+  components: {
+    HyakBoard
+  }
+};
+</script>
+
+<style scoped>
+.groupo {
+  margin: 5px;
+}
+</style>

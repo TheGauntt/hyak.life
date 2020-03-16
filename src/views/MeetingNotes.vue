@@ -1,79 +1,28 @@
 <template>
   <!-- Page Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 text-center">
-			<h1 class="mt-5">Meeting Notes</h1>
+  <div class="container">
+    <!-- Team Members Row -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="jumbotron pb-3 pt-1">
+          <h2 class="my-4">HPOA Board</h2>
 
-			<ul class="list-group mt-5 mb-5">
+          <div class="py-2 bg-white">
+            <div class="mt-2">
+              <p>Michael James</p>
+              <p>Patti Holman</p>
+              <p>Scott Burbidge</p>
+              <p>Jim Sammet</p>
+              <p>Ernst Schubert</p>
+              <p>Sally Bankson</p>
+              <p>Betsy Bankson</p>
+            </div>
+          </div>
 
-				<li class="list-group-item">
-					<p class="year-header">2020</p>
+          <HyakBoard />
+        </div>
+      </div>
+    </div>
+  </div>
 
-					<ul>
-						<li class="list-group-item" year="2020"><a href="hyak_files/meeting_notes/2020/HPOA Minutes 01-07-2020.doc" target="_blank">HPOA Minutes 01-07-2020.doc</a></li>
-					</ul>	
-				</li>
-				
-				<li class="list-group-item">
-					<p class="year-header">2010</p>
-
-					<ul>
-						<li class="list-group-item" year="2010"><a href="hyak_files/meeting_notes/2010/2010-2011_Budget.pdf" target="_blank">2010-2011_Budget.pdf</a></li>
-						<li class="list-group-item" year="2010"><a href="hyak_files/meeting_notes/2010/HPOA_AnnualMeetingMinutes_20100605.pdf" target="_blank">HPOA_AnnualMeetingMinutes_20100605.pdf</a></li>
-						<li class="list-group-item" year="2010"><a href="hyak_files/meeting_notes/2010/HPOA_BoardMeetingMinutes_20100112.pdf" target="_blank">HPOA_BoardMeetingMinutes_20100112.pdf</a></li>
-					</ul>	
-				</li>
-
-				<li class="list-group-item">
-					<p class="year-header">2009</p>
-
-					<ul>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_AnnualMeetingMinutes_20090315.pdf" target="_blank">HPOA_AnnualMeetingMinutes_20090315.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20090215.pdf" target="_blank">HPOA_BoardMeetingMinutes_20090215.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20090310.pdf" target="_blank">HPOA_BoardMeetingMinutes_20090310.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20090414.pdf" target="_blank">HPOA_BoardMeetingMinutes_20090414.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20090512.pdf" target="_blank">HPOA_BoardMeetingMinutes_20090512.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20090609.pdf" target="_blank">HPOA_BoardMeetingMinutes_20090609.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20090714.pdf" target="_blank">HPOA_BoardMeetingMinutes_20090714.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20090908.pdf" target="_blank">HPOA_BoardMeetingMinutes_20090908.pdf</a></li>
-						<li class="list-group-item" year="2009"><a href="hyak_files/meeting_notes/2009/HPOA_BoardMeetingMinutes_20091208.pdf" target="_blank">HPOA_BoardMeetingMinutes_20091208.pdf</a></li>
-					</ul>
-				</li>
-
-				<li class="list-group-item">
-					<p class="year-header">2008</p>
-
-					<ul>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA-Building_Application-2008.pdf" target="_blank">HPOA-Building_Application-2008.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_AnnualMeetingMinutes_20080315.pdf" target="_blank">HPOA_AnnualMeetingMinutes_20080315.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080122.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080122.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080212.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080212.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080311.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080311.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080408.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080408.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080513.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080513.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080610.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080610.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080708.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080708.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080812.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080812.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20080921.pdf" target="_blank">HPOA_BoardMeetingMinutes_20080921.pdf</a></li>
-						<li class="list-group-item" year="2008"><a href="hyak_files/meeting_notes/2008/HPOA_BoardMeetingMinutes_20081019.pdf" target="_blank">HPOA_BoardMeetingMinutes_20081019.pdf</a></li>
-					</ul>
-				</li>
-
-				<li class="list-group-item">
-					<p class="year-header">2007</p>
-
-					<ul>
-						<li class="list-group-item" year="2007"><a href="hyak_files/meeting_notes/2007/HPOA_BoardMeetingMinutes_20070313.pdf" target="_blank">HPOA_BoardMeetingMinutes_20070313.pdf</a></li>
-						<li class="list-group-item" year="2007"><a href="hyak_files/meeting_notes/2007/HPOA_BoardMeetingMinutes_20070814.pdf" target="_blank">HPOA_BoardMeetingMinutes_20070814.pdf</a></li>
-						<li class="list-group-item" year="2007"><a href="hyak_files/meeting_notes/2007/HPOA_BoardMeetingMinutes_20070911.pdf" target="_blank">HPOA_BoardMeetingMinutes_20070911.pdf</a></li>
-						<li class="list-group-item" year="2007"><a href="hyak_files/meeting_notes/2007/HPOA_BoardMeetingMinutes_20071009.pdf" target="_blank">HPOA_BoardMeetingMinutes_20071009.pdf</a></li>
-						<li class="list-group-item" year="2007"><a href="hyak_files/meeting_notes/2007/HPOA_BoardMeetingMinutes_20071113.pdf" target="_blank">HPOA_BoardMeetingMinutes_20071113.pdf</a></li>
-						<li class="list-group-item" year="2007"><a href="hyak_files/meeting_notes/2007/HPOA_BoardMeetingMinutes_20071211.pdf" target="_blank">HPOA_BoardMeetingMinutes_20071211.pdf</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
 </template>

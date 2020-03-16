@@ -36,21 +36,22 @@
             </li>
           </router-link>
 
+
+          <router-link to="/division_maps">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <span class="nav-link">Division Maps</span>
+            </li>
+          </router-link>
+
           <router-link to="/links">
             <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
               <span class="nav-link">Links</span>
             </li>
           </router-link>
-
+          
           <router-link to="/contact">
             <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
               <span class="nav-link">Contact</span>
-            </li>
-          </router-link>
-
-          <router-link to="/division_maps">
-            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-              <span class="nav-link">Division Maps</span>
             </li>
           </router-link>
         </ul>

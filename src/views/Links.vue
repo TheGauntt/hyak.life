@@ -1,10 +1,10 @@
 <template>
   <!-- Page Content -->
-  <div class="container mt-5 mb-5">
-    <h1 class="mb-3">Links</h1>
+  <div class="container mt-4 mb-5">
+    <h2 class="mb-4">Links</h2>
 
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <p class="lead">Property Owner's Information</p>
         <ul class="list-unstyled">
           <li>
@@ -28,7 +28,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <p class="lead">Other Things</p>
         <ul class="list-unstyled">
           <li>

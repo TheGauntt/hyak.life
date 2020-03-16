@@ -1,6 +1,6 @@
 	<template>
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-4 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">
         Copyright &copy; Hyak Property Owners Association (HPOA)
