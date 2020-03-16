@@ -21,9 +21,105 @@ const entriesFor2020: IMeeting[] = [
 ];
 
 /**
+ * 2013
+ */
+const entriesFor2013: IMeeting[] = [
+  {
+    date: "2013-11-11",
+    category: "regular",
+    title: "Minutes",
+    filename: "11-9-2013 minutes.pdf"
+  },
+  {
+    date: "2013-06-01",
+    category: "annual",
+    title: "Annual Minutes",
+    filename: "HPOA_AnnualMeetingMinutes_2013.pdf"
+  }
+];
+
+/**
+ * 2012
+ */
+const entriesFor2012: IMeeting[] = [
+  {
+    date: "2012-06-02",
+    category: "annual",
+    title: "Annual Minutes",
+    filename: "HPOA Annual Meeting Minutes 2012.pdf"
+  },
+  {
+    date: "2012-05-14",
+    category: "regular",
+    title: "Minutes",
+    filename: "05-14-2012 minutes.pdf"
+  },
+  {
+    date: "2012-04-09",
+    category: "regular",
+    title: "Minutes",
+    filename: "04-09-2012 Minutes.pdf"
+  },
+  {
+    date: "2012-01-09",
+    category: "regular",
+    title: "Minutes",
+    filename: "01-09-12 Minutes.pdf"
+  }
+];
+
+/**
+ * 2011
+ */
+const entriesFor2011: IMeeting[] = [
+  {
+    date: "2011-11-08",
+    category: "regular",
+    title: "Minutes",
+    filename: "11-08-11 minutes.pdf"
+  },
+  {
+    date: "2011-09-13",
+    category: "regular",
+    title: "Minutes",
+    filename: "Minutes 9-13-11.pdf"
+  },
+  {
+    date: "2011-08-09",
+    category: "regular",
+    title: "Minutes",
+    filename: "Minutes 8-9-2011.pdf"
+  },
+  {
+    date: "2011-07-12",
+    category: "regular",
+    title: "Minutes",
+    filename: "Minutes 7-12-2011.pdf"
+  },
+  {
+    date: "2011-06-20",
+    category: "regular",
+    title: "Minutes",
+    filename: "Minutes 6-20-11.pdf"
+  },
+  {
+    date: "2011-03-21",
+    category: "regular",
+    title: "Minutes",
+    filename: "03-21-11 Minutes.pdf"
+  }
+];
+
+/**
  * 2010 - New decade!
  */
 const entriesFor2010: IMeeting[] = [
+  {
+    date: "2010-11-15",
+    category: "annual",
+    title: "Minutes",
+    filename: "HPOA_BoardMeetingMinutes_20101115.pdf"
+  },
   {
     date: "2010-06-05",
     category: "annual",
@@ -205,6 +301,12 @@ const entriesFor2007: IMeeting[] = [
     filename: "HPOA_BoardMeetingMinutes_20070814.pdf"
   },
   {
+    date: "2007-03-17",
+    category: "annual",
+    title: "Annual Minutes",
+    filename: "HPOADraftAnnualMeetingMinutes2007.pdf"
+  },
+  {
     date: "2007-03-13",
     category: "regular",
     title: "Minutes",
@@ -213,6 +315,9 @@ const entriesFor2007: IMeeting[] = [
 ];
 
 const allEntries: IMeeting[] = entriesFor2020.concat(
+  entriesFor2013,
+  entriesFor2012,
+  entriesFor2011,
   entriesFor2010,
   entriesFor2009,
   entriesFor2008,
