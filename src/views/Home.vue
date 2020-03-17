@@ -10,7 +10,7 @@
             </p> -->
 
             <p>
-              This month's meeting (April) has been canceled due to the concerns of COVID-19.
+              This month's meeting (April) has been canceled due to the concerns of COVID-19
             </p>
 
             <p>
