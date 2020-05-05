@@ -3,26 +3,33 @@
     <!-- Page Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
-            <!-- <p>
-              <strong>Heads up!</strong>
-            </p> -->
+        <div class="col-lg-12">
+          <div class="alert alert-danger alert-dismissible fade show mt-2" role="alert">
+            <p>
+              <b>HOA dues</b> ($40) are due soon! (June 1st, 2020). That's pretty soon...
+            </p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="alert alert-success alert-dismissible fade show mt-2" role="alert">
+            <p>Coming to a theater near you Saturday, June 6th...</p>
 
             <p>
-              This month's meeting (April) has been canceled due to the concerns of COVID-19
+              <b>Neighborhood Cleanup starts at 9 AM</b> at the
+              <a target="_blank" href="https://goo.gl/maps/MNdicLHhNjXP3vrV9">Three Way Stop</a>
             </p>
 
             <p>
-              To avoid delays in construction, during the narrow summer building season, house plans may be sent electronically to the board, for review and approval.
+              Then,
+              <b>Annual Meeting at 6 PM</b>
+              at the
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/place/snoqualmie+pass+fire+and+rescue/@47.4171668,-121.4147039,17z/data=!3m1!4b1!4m5!3m4!1s0x549a79a0476547c1:0x4bfe36062cb6f570!8m2!3d47.4171668!4d-121.4125152"
+              >Fire Station</a>
             </p>
-
-            <p>- Sally, 3/16/2020</p>
-
-            <!-- Looking for something new? Try reading our recently recovered
-            <router-link to="/meeting_notes">
-              <span>Meeting Notes</span>
-            </router-link>-->
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -54,7 +61,7 @@
             >
               <instagram-embed
                 :max-width="540"
-                url="https://www.instagram.com/p/B9lGiexn5kv"
+                url="https://www.instagram.com/p/B_tcJ3-At_0"
                 :hide-caption="true"
               />
             </div>
