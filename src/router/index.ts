@@ -48,12 +48,26 @@ const routes = [
         /* webpackChunkName: "division_maps" */ "../views/DivisionMaps.vue"
       ),
   },
+  {
+    path: "/404",
+    name: "not found",
+    component: () =>
+      import(/* webpackChunkName: "not_found" */ "../views/NotFound.vue"),
+  },
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes,
+});
+
+router.beforeEach((to, from, next) => {
+  if (to.matched.length == 0) {
+    router.push(`/404?from=${to.fullPath}`);
+  } else {
+    next();
+  }
 });
 
 export default router;
