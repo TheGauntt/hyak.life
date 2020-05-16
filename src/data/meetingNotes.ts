@@ -16,8 +16,38 @@ const entriesFor2020: IMeeting[] = [
     date: "2020-01-07",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA Minutes 01-07-2020.doc"
-  }
+    filename: "HPOA Minutes 01-07-2020.doc",
+  },
+];
+
+/**
+ * 2014
+ */
+const entriesFor2014: IMeeting[] = [
+  {
+    date: "2014-11-10",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 11-10-14.pdf",
+  },
+  {
+    date: "2014-09-08",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 9-08-14.pdf",
+  },
+  {
+    date: "2014-07-14",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 7-14-14.pdf",
+  },
+  {
+    date: "2014-03-10",
+    category: "regular",
+    title: "Minutes",
+    filename: "03-10-2014 minutes.pdf",
+  },
 ];
 
 /**
@@ -28,14 +58,14 @@ const entriesFor2013: IMeeting[] = [
     date: "2013-11-11",
     category: "regular",
     title: "Minutes",
-    filename: "11-9-2013 minutes.pdf"
+    filename: "11-9-2013 minutes.pdf",
   },
   {
     date: "2013-06-01",
     category: "annual",
     title: "Annual Minutes",
-    filename: "HPOA_AnnualMeetingMinutes_2013.pdf"
-  }
+    filename: "HPOA_AnnualMeetingMinutes_2013.pdf",
+  },
 ];
 
 /**
@@ -46,26 +76,26 @@ const entriesFor2012: IMeeting[] = [
     date: "2012-06-02",
     category: "annual",
     title: "Annual Minutes",
-    filename: "HPOA Annual Meeting Minutes 2012.pdf"
+    filename: "HPOA Annual Meeting Minutes 2012.pdf",
   },
   {
     date: "2012-05-14",
     category: "regular",
     title: "Minutes",
-    filename: "05-14-2012 minutes.pdf"
+    filename: "05-14-2012 minutes.pdf",
   },
   {
     date: "2012-04-09",
     category: "regular",
     title: "Minutes",
-    filename: "04-09-2012 Minutes.pdf"
+    filename: "04-09-2012 Minutes.pdf",
   },
   {
     date: "2012-01-09",
     category: "regular",
     title: "Minutes",
-    filename: "01-09-12 Minutes.pdf"
-  }
+    filename: "01-09-12 Minutes.pdf",
+  },
 ];
 
 /**
@@ -76,38 +106,38 @@ const entriesFor2011: IMeeting[] = [
     date: "2011-11-08",
     category: "regular",
     title: "Minutes",
-    filename: "11-08-11 minutes.pdf"
+    filename: "11-08-11 minutes.pdf",
   },
   {
     date: "2011-09-13",
     category: "regular",
     title: "Minutes",
-    filename: "Minutes 9-13-11.pdf"
+    filename: "Minutes 9-13-11.pdf",
   },
   {
     date: "2011-08-09",
     category: "regular",
     title: "Minutes",
-    filename: "Minutes 8-9-2011.pdf"
+    filename: "Minutes 8-9-2011.pdf",
   },
   {
     date: "2011-07-12",
     category: "regular",
     title: "Minutes",
-    filename: "Minutes 7-12-2011.pdf"
+    filename: "Minutes 7-12-2011.pdf",
   },
   {
     date: "2011-06-20",
     category: "regular",
     title: "Minutes",
-    filename: "Minutes 6-20-11.pdf"
+    filename: "Minutes 6-20-11.pdf",
   },
   {
     date: "2011-03-21",
     category: "regular",
     title: "Minutes",
-    filename: "03-21-11 Minutes.pdf"
-  }
+    filename: "03-21-11 Minutes.pdf",
+  },
 ];
 
 /**
@@ -118,26 +148,26 @@ const entriesFor2010: IMeeting[] = [
     date: "2010-11-15",
     category: "annual",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20101115.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20101115.pdf",
   },
   {
     date: "2010-06-05",
     category: "annual",
     title: "Annual Minutes",
-    filename: "HPOA_AnnualMeetingMinutes_20100605.pdf"
+    filename: "HPOA_AnnualMeetingMinutes_20100605.pdf",
   },
   {
     date: "2010-01-12",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20100112.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20100112.pdf",
   },
   {
     date: "2010-01-01",
     category: "budget",
     title: "2009-2010 Budget",
-    filename: "2010-2011_Budget.pdf"
-  }
+    filename: "2010-2011_Budget.pdf",
+  },
 ];
 
 /**
@@ -148,56 +178,56 @@ const entriesFor2009: IMeeting[] = [
     date: "2009-12-08",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20091208.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20091208.pdf",
   },
   {
     date: "2009-09-08",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20090908.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20090908.pdf",
   },
   {
     date: "2009-07-14",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20090714.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20090714.pdf",
   },
   {
     date: "2009-06-09",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20090609.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20090609.pdf",
   },
   {
     date: "2009-05-12",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20090512.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20090512.pdf",
   },
   {
     date: "2009-04-14",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20090414.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20090414.pdf",
   },
   {
     date: "2009-03-21",
     category: "annual",
     title: "Annual Minutes",
-    filename: "HPOA_AnnualMeetingMinutes_20090315.pdf"
+    filename: "HPOA_AnnualMeetingMinutes_20090315.pdf",
   },
   {
     date: "2009-03-10",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20090310.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20090310.pdf",
   },
   {
     date: "2009-02-15",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20090215.pdf"
-  }
+    filename: "HPOA_BoardMeetingMinutes_20090215.pdf",
+  },
 ];
 
 const entriesFor2008: IMeeting[] = [
@@ -205,68 +235,68 @@ const entriesFor2008: IMeeting[] = [
     date: "2008-10-19",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20081019.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20081019.pdf",
   },
   {
     date: "2008-09-21",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080921.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080921.pdf",
   },
   {
     date: "2008-08-12",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080812.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080812.pdf",
   },
   {
     date: "2008-07-08",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080708.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080708.pdf",
   },
   {
     date: "2008-06-10",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080610.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080610.pdf",
   },
   {
     date: "2008-05-13",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080513.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080513.pdf",
   },
   {
     date: "2008-04-08",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080408.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080408.pdf",
   },
   {
     date: "2008-03-15",
     category: "annual",
     title: "Annual Minutes",
-    filename: "HPOA_AnnualMeetingMinutes_20080315.pdf"
+    filename: "HPOA_AnnualMeetingMinutes_20080315.pdf",
   },
   {
     date: "2008-03-11",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080311.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080311.pdf",
   },
   {
     date: "2008-02-12",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080212.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20080212.pdf",
   },
   {
     date: "2008-01-22",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20080122.pdf"
-  }
+    filename: "HPOA_BoardMeetingMinutes_20080122.pdf",
+  },
 ];
 
 const entriesFor2007: IMeeting[] = [
@@ -274,47 +304,49 @@ const entriesFor2007: IMeeting[] = [
     date: "2007-12-11",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20071211.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20071211.pdf",
   },
   {
     date: "2007-11-13",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20071113.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20071113.pdf",
   },
   {
     date: "2007-10-09",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20071009.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20071009.pdf",
   },
   {
     date: "2007-09-11",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20070911.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20070911.pdf",
   },
   {
     date: "2007-08-14",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20070814.pdf"
+    filename: "HPOA_BoardMeetingMinutes_20070814.pdf",
   },
   {
     date: "2007-03-17",
     category: "annual",
     title: "Annual Minutes",
-    filename: "HPOADraftAnnualMeetingMinutes2007.pdf"
+    filename: "HPOADraftAnnualMeetingMinutes2007.pdf",
   },
   {
     date: "2007-03-13",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA_BoardMeetingMinutes_20070313.pdf"
-  }
+    filename: "HPOA_BoardMeetingMinutes_20070313.pdf",
+  },
 ];
 
-const allEntries: IMeeting[] = entriesFor2020.concat(
+const allEntries: IMeeting[] = ([] as IMeeting[]).concat(
+  entriesFor2020,
+  entriesFor2014,
   entriesFor2013,
   entriesFor2012,
   entriesFor2011,

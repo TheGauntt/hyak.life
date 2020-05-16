@@ -61,7 +61,7 @@
             >
               <instagram-embed
                 :max-width="540"
-                url="https://www.instagram.com/p/B_tcJ3-At_0"
+                url="https://www.instagram.com/p/B_1bB7sAuqJ"
                 :hide-caption="true"
               />
             </div>
