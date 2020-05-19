@@ -1,3 +1,5 @@
+import moment from "moment";
+
 // full path:
 // hyak_files/meeting_notes/{{year}}/{{filename}}
 
@@ -286,7 +288,7 @@ const entriesFor2011: IMeeting[] = [
 const entriesFor2010: IMeeting[] = [
   {
     date: "2010-11-15",
-    category: "annual",
+    category: "regular",
     title: "Minutes",
     filename: "HPOA_BoardMeetingMinutes_20101115.pdf",
   },
@@ -501,4 +503,20 @@ const allEntries: IMeeting[] = ([] as IMeeting[]).concat(
   entriesFor2007
 );
 
+// Sort in descending order
+allEntries.sort((a, b) => {
+  const momeA = moment(a.date, "YYYY-MM-DD");
+  const momeB = moment(b.date, "YYYY-MM-DD");
+  return momeB.diff(momeA);
+});
+
+const years: string[] = [];
+allEntries.forEach((entry) => {
+  let year = String(moment(entry.date).year());
+  if (!years.includes(year)) {
+    years.push(year);
+  }
+});
+
+export const MEETING_NOTES_YEARS = years;
 export const MEETING_NOTES_DATA = allEntries;
