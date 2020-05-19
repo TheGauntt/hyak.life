@@ -16,7 +16,7 @@ const entriesFor2020: IMeeting[] = [
     date: "2020-01-07",
     category: "regular",
     title: "Minutes",
-    filename: "HPOA Minutes 01-07-2020.doc",
+    filename: "HPOA Minutes 01-07-2020.pdf",
   },
 ];
 
