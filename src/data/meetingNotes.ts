@@ -21,6 +21,146 @@ const entriesFor2020: IMeeting[] = [
 ];
 
 /**
+ * 2019 - I'm sure something happened this year
+ */
+const entriesFor2019: IMeeting[] = [
+  {
+    date: "2019-11-05",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 11-5-2019.pdf",
+  },
+  {
+    date: "2019-09-03",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 9-3-2019.pdf",
+  },
+  {
+    date: "2019-07-02",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 7-2-2019.pdf",
+  },
+  {
+    date: "2019-05-07",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 5-7-2019.pdf",
+  },
+  {
+    date: "2019-03-05",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 3-5-2019.pdf",
+  },
+];
+
+/**
+ * 2018 - The year of the horse
+ */
+const entriesFor2018: IMeeting[] = [
+  {
+    date: "2018-11-12",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 11-12-2018.pdf",
+  },
+  {
+    date: "2018-09-10",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA meeting minutes 9.10.18.docx",
+  },
+  {
+    date: "2018-07-09",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 07-09-2018.pdf",
+  },
+];
+
+/**
+ * 2017 - a year
+ */
+const entriesFor2017: IMeeting[] = [
+  // {
+  // }
+];
+
+/**
+ * 2016 - whew
+ */
+const entriesFor2016: IMeeting[] = [
+  {
+    date: "2016-05-09",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 05-09-2016.pdf",
+  },
+  {
+    date: "2016-03-14",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 03-14-2016.pdf",
+  },
+  {
+    date: "2016-01-11",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 01-11-2016.pdf",
+  },
+];
+
+/**
+ * 2015
+ */
+const entriesFor2015: IMeeting[] = [
+  {
+    date: "2015-11-09",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 11-09-2015.pdf",
+  },
+  {
+    date: "2015-10-12",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 10-12-2015.pdf",
+  },
+  {
+    date: "2015-09-14",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 09-14-2015.pdf",
+  },
+  {
+    date: "2015-07-13",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 07-13-2015.pdf",
+  },
+  {
+    date: "2015-06-06",
+    category: "annual",
+    title: "Annual Minutes",
+    filename: "HPOA_AnnualMeetingMinutes_2015.pdf",
+  },
+  {
+    date: "2015-05-11",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 05-11-2015.pdf",
+  },
+  {
+    date: "2015-03-09",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 03-09-2015.pdf",
+  },
+];
+
+/**
  * 2014
  */
 const entriesFor2014: IMeeting[] = [
@@ -346,6 +486,11 @@ const entriesFor2007: IMeeting[] = [
 
 const allEntries: IMeeting[] = ([] as IMeeting[]).concat(
   entriesFor2020,
+  entriesFor2019,
+  entriesFor2018,
+  entriesFor2017,
+  entriesFor2016,
+  entriesFor2015,
   entriesFor2014,
   entriesFor2013,
   entriesFor2012,

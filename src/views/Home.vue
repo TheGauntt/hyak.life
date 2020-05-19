@@ -6,7 +6,7 @@
         <div class="col-lg-12">
           <div class="alert alert-danger alert-dismissible fade show mt-2" role="alert">
             <p>
-              <b>HOA dues</b> ($40) are due soon! (June 1st, 2020). That's pretty soon...
+              <b>HOA dues</b> ($40) are due soon! (June 1st, 2020). That's <b>pretty</b> soon!
             </p>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
