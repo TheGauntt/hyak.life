@@ -6,7 +6,7 @@
 
         <div class="container mt-5">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <div class="card mb-3 border border-info">
                 <div class="card-body">
                   <h4 class="card-title">Mail</h4>
@@ -20,24 +20,14 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
-              <div class="card mb-3 border border-primary">
+            <div class="col-lg-6">
+              <div class="card mb-3 border border-info">
                 <div class="card-body">
                   <h4 class="card-title">Email</h4>
 
                   <p>
                     <a href="mailto:hpoaboard@hotmail.com">hpoaboard@hotmail.com</a>
                   </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="card mb-3 border border-secondary">
-                <div class="card-body">
-                  <h4 class="card-title">Phone Voicemail</h4>
-
-                  <p>425.785.6543</p>
                 </div>
               </div>
             </div>

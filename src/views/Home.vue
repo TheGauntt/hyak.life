@@ -13,23 +13,8 @@
             </button>
           </div>
 
-          <div class="alert alert-success alert-dismissible fade show mt-2" role="alert">
-            <p>Coming to a theater near you Saturday, June 6th...</p>
-
-            <p>
-              <b>Neighborhood Cleanup starts at 9 AM</b> at the
-              <a target="_blank" href="https://goo.gl/maps/MNdicLHhNjXP3vrV9">Three Way Stop</a>
-            </p>
-
-            <p>
-              Then,
-              <b>Annual Meeting at 6 PM</b>
-              at the
-              <a
-                target="_blank"
-                href="https://www.google.com/maps/place/snoqualmie+pass+fire+and+rescue/@47.4171668,-121.4147039,17z/data=!3m1!4b1!4m5!3m4!1s0x549a79a0476547c1:0x4bfe36062cb6f570!8m2!3d47.4171668!4d-121.4125152"
-              >Fire Station</a>
-            </p>
+          <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
+           The Clean-up and Annual Meeting, (that were previously scheduled for June 6), have now been CANCELLED. This is to comply with the current state rules regarding "social distancing". Stay Safe, Stay Healthy, and we will see you next year! - P.H.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
