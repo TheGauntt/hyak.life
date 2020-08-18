@@ -37,7 +37,7 @@
             >
               <instagram-embed
                 :max-width="540"
-                url="https://www.instagram.com/p/B_1bB7sAuqJ"
+                url="https://www.instagram.com/p/CDc2iosBNf5"
                 :hide-caption="true"
               />
             </div>
