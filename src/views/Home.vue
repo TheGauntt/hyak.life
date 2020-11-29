@@ -14,7 +14,12 @@
           <div class="jumbotron pt-3 pb-3">
             <h1>Welcome!</h1>
             <p class="lead">
-              <a target="_blank" href="https://en.wikipedia.org/wiki/Hyak,_Washington">Hyak</a> is a growing community located on Snoqualmie Pass, WA.
+              <a
+                target="_blank"
+                href="https://en.wikipedia.org/wiki/Hyak,_Washington"
+                >Hyak</a
+              >
+              is a growing community located on Snoqualmie Pass, WA.
             </p>
 
             <!-- <p class="lead mt-3">Connect with locals on Facebook</p> -->
@@ -23,22 +28,20 @@
                 target="_blank"
                 class="btn btn-primary btn-lg groupo"
                 href="https://www.facebook.com/groups/324191704292219/"
-              >Snoqualmie Pass FB Group</a>
+                >Snoqualmie Pass FB Group</a
+              >
               <a
                 target="_blank"
                 class="btn btn-dark btn-lg groupo"
                 href="https://www.facebook.com/groups/132036856811932/"
-              >Hyak FB Group</a>
+                >Hyak FB Group</a
+              >
             </p>
 
-            <div
-              style="margin-left: auto; margin-right: auto; max-width: 540px; min-height: 400px;"
-              class="mt-3"
-            >
-              <instagram-embed
-                :max-width="540"
-                url="https://www.instagram.com/p/CIMF21chkvY"
-                :hide-caption="true"
+            <div class="mt-3 ml-3 mr-3">
+              <img
+                src="teasers/interstate-love-song.jpg"
+                class="teaser-image"
               />
             </div>
 
@@ -51,21 +54,25 @@
 </template>
 
 <script>
-import InstagramEmbed from "vue-instagram-embed";
 // @ is an alias to /src
 import HyakMeetings from "@/components/HyakMeetings.vue";
 
 export default {
   name: "home",
   components: {
-    InstagramEmbed,
-    HyakMeetings
-  }
+    HyakMeetings,
+  },
 };
 </script>
 
 <style scoped>
 .groupo {
   margin: 5px;
+}
+
+.teaser-image {
+  object-fit: contain;
+  width: 100%;
+  border: 3px goldenrod inset;
 }
 </style>
