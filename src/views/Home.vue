@@ -39,10 +39,12 @@
             </p>
 
             <div class="mt-3 ml-3 mr-3">
-              <img
-                src="teasers/interstate-love-song.jpg"
-                class="teaser-image"
-              />
+              <a href="teasers/interstate-love-song.jpg" target="_blank">
+                <img
+                  src="teasers/interstate-love-song.jpg"
+                  class="teaser-image"
+                />
+              </a>
             </div>
 
             <HyakMeetings />
