@@ -4,12 +4,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <!-- <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
-           The Clean-up and Annual Meeting, (that were previously scheduled for June 6), have now been CANCELLED. This is to comply with the current state rules regarding "social distancing". Stay Safe, Stay Healthy, and we will see you next year! - P.H.
+          <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
+           Time to dust off the address book, we're now at <a href="mailto:hpoahyak@outlook.com">hpoahyak@outlook.com</a>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-          </div> -->
+          </div>
 
           <div class="jumbotron pt-3 pb-3">
             <h1>Welcome!</h1>

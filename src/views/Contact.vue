@@ -26,7 +26,7 @@
                   <h4 class="card-title">Email</h4>
 
                   <p>
-                    <a href="mailto:hpoaboard@hotmail.com">hpoaboard@hotmail.com</a>
+                    <a href="mailto:hpoahyak@outlook.com">hpoahyak@outlook.com</a>
                   </p>
                 </div>
               </div>
