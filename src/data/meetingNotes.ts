@@ -15,6 +15,12 @@ export interface IMeeting {
  */
 const entriesFor2020: IMeeting[] = [
   {
+	date: "2020-03-03",
+    category: "regular",
+    title: "Minutes",
+    filename: "03-03-20 minutes.pdf",
+  },
+  {
     date: "2020-01-07",
     category: "regular",
     title: "Minutes",
