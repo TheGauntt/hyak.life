@@ -18,7 +18,7 @@ const entriesFor2020: IMeeting[] = [
     date: "2020-12-01",
     category: "regular",
     title: "Minutes",
-    filename: "12-01-20 minutes.pdf",
+    filename: "12-01-20 Minutes.pdf",
   },
   {
     date: "2020-03-03",
