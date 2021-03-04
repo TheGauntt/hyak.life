@@ -11,6 +11,18 @@ export interface IMeeting {
 }
 
 /**
+ * 2021 - What have you done with your hair?
+ */
+const entriesFor2021: IMeeting[] = [
+  {
+    date: "2021-02-02",
+    category: "regular",
+    title: "Minutes",
+    filename: "HPOA Minutes 02-02-2021.pdf",
+  },
+];
+
+/**
  * 2020 - New decade!
  */
 const entriesFor2020: IMeeting[] = [
@@ -499,6 +511,7 @@ const entriesFor2007: IMeeting[] = [
 ];
 
 const allEntries: IMeeting[] = ([] as IMeeting[]).concat(
+  entriesFor2021,
   entriesFor2020,
   entriesFor2019,
   entriesFor2018,
