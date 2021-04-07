@@ -15,6 +15,12 @@ export interface IMeeting {
  */
 const entriesFor2021: IMeeting[] = [
   {
+    date: "2021-03-02",
+    category: "regular",
+    title: "Minutes",
+    filename: "03-02-21 Minutes.pdf",
+  },
+  {
     date: "2021-02-02",
     category: "regular",
     title: "Minutes",
