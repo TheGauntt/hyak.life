@@ -86,6 +86,12 @@ const entriesFor2019: IMeeting[] = [
     title: "Minutes",
     filename: "HPOA Minutes 3-5-2019.pdf",
   },
+  {
+	date: "2019-06-01",
+	category: "annual",
+    title: "Annual Minutes",
+    filename: "HPOA Annual Meeting Minutes 6-1-2019 posted to website.pdf",
+  }
 ];
 
 /**
