@@ -15,6 +15,12 @@ export interface IMeeting {
  */
 const entriesFor2021: IMeeting[] = [
   {
+    date: "2021-04-06",
+    category: "regular",
+    title: "Minutes",
+    filename: "04-06-2021 HPOA Minutes.pdf",
+  },
+  {
     date: "2021-03-02",
     category: "regular",
     title: "Minutes",
@@ -87,11 +93,11 @@ const entriesFor2019: IMeeting[] = [
     filename: "HPOA Minutes 3-5-2019.pdf",
   },
   {
-	date: "2019-06-01",
-	category: "annual",
+    date: "2019-06-01",
+    category: "annual",
     title: "Annual Minutes",
     filename: "HPOA Annual Meeting Minutes 6-1-2019 posted to website.pdf",
-  }
+  },
 ];
 
 /**

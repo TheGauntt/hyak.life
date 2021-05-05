@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
-           Time to dust off the address book, we're now at <a href="mailto:hpoahyak@outlook.com">hpoahyak@outlook.com</a>
+           <a href="/meeting_notes">Meeting notes</a> updated (April 6th, 2021)
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
