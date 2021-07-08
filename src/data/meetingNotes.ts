@@ -15,6 +15,18 @@ export interface IMeeting {
  */
 const entriesFor2021: IMeeting[] = [
   {
+    date: "2021-06-05",
+    category: "annual",
+    title: "Annual Minutes",
+    filename: "HPOA Annual Meeting Minutes 06-05-2021.pdf",
+  },
+  {
+    date: "2021-05-04",
+    category: "regular",
+    title: "Minutes",
+    filename: "05-04-2021 minutes.pdf",
+  },
+  {
     date: "2021-04-06",
     category: "regular",
     title: "Minutes",

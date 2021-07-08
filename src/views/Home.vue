@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
-           <a href="/meeting_notes">Meeting notes</a> updated (April 6th, 2021)
+           <a href="/meeting_notes">Meeting notes</a> updated! (and a very happy farewell to expert notetaker P.H.)
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
